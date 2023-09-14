@@ -23,7 +23,7 @@ table tr td {
 }
 
 table tr td:nth-child(even) {
-  color: var(--green);
+  color: var(--yellow);
 }
 
 section p {

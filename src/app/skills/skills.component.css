@@ -9,7 +9,7 @@ section {
 }
 
 section h2 {
-  color: var(--green);
+  color: var(--yellow);
   font-family: "Roboto Condensed", sans-serif;
 }
 section .rating {
@@ -30,7 +30,7 @@ section .rating .bar {
 
 section .rating .bar div {
   height: 100%;
-  background-color: var(--green);
+  background-color: var(--yellow);
 }
 
 /* PC */

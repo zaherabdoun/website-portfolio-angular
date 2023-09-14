@@ -1,7 +1,7 @@
 :host {
   display: block;
   padding: 4rem 2rem 6rem;
-  background-color: var(--dark-gray);
+  background-color: var(--dark-blue);
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 }
 
@@ -15,7 +15,7 @@
   padding: 0 0 2rem;
   text-align: center;
   font-style: italic;
-  color: var(--green);
+  color: var(--yellow);
   text-decoration: underline;
   font-family: "Roboto Conensed", sans-serif;
 }
@@ -32,13 +32,13 @@
 
 .name span:nth-of-type(1) span {
   font-size: 3rem;
-  color: var(--green);
+  color: var(--yellow);
 }
 
 .name span:nth-of-type(2) {
   display: inline-block;
   font-size: 4rem;
-  color: var(--green);
+  color: var(--yellow);
   font-weight: bold;
   padding: 10px 0;
   letter-spacing: 8px;
@@ -58,7 +58,7 @@
   width: 100%;
   bottom: 0%;
   position: absolute;
-  background-color: var(--green);
+  background-color: var(--yellow);
   clip-path: inset(0 round 50% 0);
 }
 
