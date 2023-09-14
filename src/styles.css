@@ -1,8 +1,7 @@
 :root {
-  --green: #69f0ae;
-  --green-light: #b9f6ca;
+  --yellow: #fc6;
   --gray-light: #bdbdbd;
-  --dark-gray: #263238;
+  --dark-blue: #036;
   --black: #212121;
 }
 
@@ -20,7 +19,7 @@ h1 {
   padding: 1rem 0;
   text-align: center;
   letter-spacing: 1px;
-  color: var(--green);
+  color: var(--yellow);
   outline: 1px solid white;
   font-family: "Roboto Condensed", sans-serif;
 }
