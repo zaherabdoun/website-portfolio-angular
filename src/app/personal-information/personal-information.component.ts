@@ -19,6 +19,6 @@ export class PersonalInformationComponent {
     'Hi, I am a Software Engineer with 7 years of experience in software development.',
     'Worked as Software Engineer for several Topics Frontend and Backend',
     'Delivered all product withing deadlines. Always eager to learn new technologies.',
-    'Currently, working as Frontend Developer',
+    'Currently, working as Fullstack Developer',
   ];
 }

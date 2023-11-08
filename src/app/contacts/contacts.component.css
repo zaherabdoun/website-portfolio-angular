@@ -33,6 +33,10 @@ ul {
   font-size: 1.2rem;
 }
 
+.contact-info a:hover {
+  color: var(--yellow);
+}
+
 /* PC */
 
 :host.pc .container {

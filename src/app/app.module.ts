@@ -11,6 +11,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { BanerComponent } from './baner/baner.component';
 import { ResponsiveDirective } from './directives/responsive.directive';
+import { HeaderComponent } from './header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { ResponsiveDirective } from './directives/responsive.directive';
     ProjectsComponent,
     ContactsComponent,
     BanerComponent,
-    ResponsiveDirective
+    ResponsiveDirective,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
