@@ -1,0 +1,19 @@
+<nav class="navbar">
+    <div class="navbar-container">
+        <div class="brand">
+            <a href="#"><span class="blue-text">Coding</span><span class="yellow-text">with</span><span
+                    class="blue-text">Zaher</span><span class="dot">.</span></a>
+        </div>
+        <div class="nav-links" [class.show-menu]="isMenuOpen">
+            <a href="#personal">Personal</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skill">Skills</a>
+            <!-- <a href="#project">Projects</a> -->
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-toggle" (click)="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>

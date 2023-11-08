@@ -9,12 +9,12 @@ import { Skill } from '../models/models';
 export class SkillsComponent {
   skills: Skill[] = [
     {
-      name: 'Angular, Angular Material',
+      name: 'Angular',
       level: 'Expert',
-      rating: 85,
+      rating: 75,
     },
     {
-      name: 'ASP.NET Core, EF Core',
+      name: 'C#',
       level: 'Intermidiate',
       rating: 70,
     },
@@ -24,14 +24,40 @@ export class SkillsComponent {
       rating: 90,
     },
     {
+      name: 'TypeScript',
+      level: 'Intermediate',
+      rating: 75,
+    },
+    {
       name: 'JAVA',
       level: 'Expert',
       rating: 80,
     },
     {
-      name: 'C++',
-      level: 'Intermidiate',
+      name: 'E2E Testing using Playwright',
+      level: 'Intermediate',
+      rating: 70,
+    },
+    {
+      name: 'Spring Boot',
+      level: 'Intermediate',
+      rating: 75,
+    },
+    {
+      name: 'Git, GitLab, BitBucket',
+      level: 'Intermediate',
+      rating: 75,
+    },
+    {
+      name: 'Database using MSSQL, MariaDB',
+      level: 'Expert',
+      rating: 80,
+    },
+    {
+      name: 'DevOps (Docker & K8S)',
+      level: 'Intermediate',
       rating: 70,
     },
   ];
+
 }

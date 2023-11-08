@@ -1,6 +1,7 @@
 :host {
   display: block;
-  padding: 4rem 2rem 6rem;
+  z-index: 2;
+  padding: 4rem 1rem 6rem;
   background-color: var(--dark-blue);
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%);
 }
@@ -22,7 +23,7 @@
 
 .name {
   grid-row: 3/4;
-  padding: 2rem;
+  padding: 2rem 1rem;
   color: white;
   font-size: 2rem;
   margin-top: 3rem;
@@ -37,12 +38,26 @@
 
 .name span:nth-of-type(2) {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 2.3rem;
   color: var(--yellow);
   font-weight: bold;
-  padding: 10px 0;
-  letter-spacing: 8px;
   text-shadow: 10px 8px 10px var(--black);
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid var(--yellow); /* The typwriter cursor */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 1.5s steps(20);
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
 }
 
 .profile {
