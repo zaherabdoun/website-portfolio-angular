@@ -34,14 +34,14 @@ export class SkillsComponent {
       rating: 80,
     },
     {
-      name: 'E2E Testing using Playwright',
+      name: 'E2E Testing',
       level: 'Intermediate',
       rating: 70,
     },
     {
       name: 'Spring Boot',
       level: 'Intermediate',
-      rating: 75,
+      rating: 70,
     },
     {
       name: 'Git, GitLab, BitBucket',
